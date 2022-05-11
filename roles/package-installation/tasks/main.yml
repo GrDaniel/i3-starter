@@ -1,2 +1,3 @@
 ---
-# tasks file for package-installation
+- name: Install bat
+  import_tasks: install_bat.yml
